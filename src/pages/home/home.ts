@@ -14,7 +14,7 @@ export class HomePage implements NavLifecycles {
 
   public carros=[];
   public numItems = 0;
-  public incremento = 10;
+  public incremento = 5;
   aux = [];
   constructor(public navCtrl: NavController,
      private _loadingController: LoadingController,
